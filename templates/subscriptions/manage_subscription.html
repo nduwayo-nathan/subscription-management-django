@@ -1,0 +1,7 @@
+<h2>Manage Subscription: {{ subscription.plan.name }}</h2>
+<form method="POST">
+    {% csrf_token %}
+    <button type="submit" name="action" value="renew">Renew Subscription</button>
+    <button type="submit" name="action" value="cancel">Cancel Subscription</button>
+    <button type="submit" name="action" value="upgrade">Upgrade Subscription</button>
+</form>

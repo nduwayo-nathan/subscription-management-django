@@ -1,0 +1,21 @@
+<h2>Upcoming Renewals</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Plan</th>
+            <th>Renewal Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for renewal in upcoming_renewals %}
+            <tr>
+                <td>{{ renewal.plan }}</td>
+                <td>{{ renewal.renewal_date }}</td>
+            </tr>
+        {% empty %}
+            <tr>
+                <td colspan="2">No upcoming renewals.</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>

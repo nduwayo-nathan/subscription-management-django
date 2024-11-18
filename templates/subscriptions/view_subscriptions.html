@@ -1,0 +1,6 @@
+<h2>Your Active Subscriptions</h2>
+<ul>
+    {% for subscription in subscriptions %}
+        <li>{{ subscription.plan.name }} - Expires on {{ subscription.end_date }}</li>
+    {% endfor %}
+</ul>

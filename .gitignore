@@ -1,0 +1,62 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+*.bak
+*.swp
+*.cover
+*.coverage
+*.hypothesis
+__pycache__/
+*.env
+*.sqlite3
+media/
+static/
+
+# Environment files
+.env
+/env/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# MySQL
+*.sql
+*.db
+
+# Node.js
+node_modules/
+
+# SASS/SCSS
+.sass-cache/
+
+# AWS S3 (if used for media storage)
+.aws/
+
+# Docker
+docker-compose.yml
+Dockerfile
+.docker/
+
+# Temporary files
+*.swp
+*~

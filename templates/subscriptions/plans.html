@@ -1,0 +1,8 @@
+<h2>Subscription Plans</h2>
+<ul>
+    {% for plan in plans %}
+        <li>{{ plan.name }} - ${{ plan.price }}
+            <a href="{% url 'subscribe' plan.id %}">Subscribe</a>
+        </li>
+    {% endfor %}
+</ul>
